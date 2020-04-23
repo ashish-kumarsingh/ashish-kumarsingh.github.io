@@ -279,3 +279,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
