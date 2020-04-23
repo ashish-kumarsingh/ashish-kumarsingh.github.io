@@ -1,6 +1,2 @@
 source "https://rubygems.org"
-gem 'nokogiri'
-gem 'rack', '~> 2.0.1'
-gem 'rspec'
-gem "jekyll", "~> 3.5"
 gem "minimal-mistakes-jekyll"
