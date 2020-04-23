@@ -80,7 +80,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 3.5)
+  jekyll
   minimal-mistakes-jekyll
 
 BUNDLED WITH
