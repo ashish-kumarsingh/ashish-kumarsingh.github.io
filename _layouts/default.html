@@ -1,19 +1,9 @@
 ---
+layout: base
 ---
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    {% include header.html %}
-  </head>
-  <body>
-    <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
-    <div id = "wrapper">
-      {%include navigation.html %}
-      <div class="container">
-        {{ content }}
-      </div>
-      {% include footer.html %}
-    </div>
-    {% include scripts.html %}
-  </body>
-</html>
+
+<div class="intro-header"></div>
+
+<div role="main" class="container">
+  {{ content }}
+</div>
